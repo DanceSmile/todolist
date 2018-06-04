@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> totolist template</title>
+	<link rel="stylesheet" type="text/css" href="./node_modules/semantic-ui-css/semantic.css">
+	<style type="text/css">
+		
+		.notes{
+			margin-top: 32px;
+
+		}
+		.notes .ui textarea{
+			font-size: 16px;
+			margin: 10px 0px;
+
+		}
+		.ui.items > .item > .content > .header{
+			display: block;
+			cursor: pointer;
+		}
+		.ui.items > .item > .meta{
+			width: 88px;
+			color: rgba(0, 0, 0, 0.4);
+			margin-top: 0px;
+			margin-bottom: 16px;
+		}
+		.trash.icon{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="ui container notes">
+		<h4 class="ui horizontal divider header"> 
+			<i class="paw icon"></i>
+			To Do List Template
+		</h4>
+		<div class="ui right floated basic violet button">
+			添加笔记
+		</div>
+
+		<div class="ui divided items">
+
+			<div class="item">
+				<div class="meta">
+					  2分钟前
+				</div>
+				<div class="content">
+					<div class="header">
+						hello world
+					</div>
+					<div class="extra">
+						<div class="ui form">
+							<div class="field">
+								<textarea rows="5"  placeholder="写点东西。。。。。" >
+									
+								</textarea>
+							</div>
+						</div>
+						100字数
+						<i class="right floated trash  icon"></i>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+
+			<div class="item">
+				<div class="meta">
+					  一小时前
+				</div>
+				<div class="content">
+					<div class="header">
+						hello world
+					</div>
+					<div class="extra">
+						<div class="ui form">
+							<div class="field">
+								<textarea rows="5"  placeholder="写点东西。。。。。" >
+									
+								</textarea>
+							</div>
+						</div>
+						100字数
+						<i class="right floated trash  icon"></i>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+			<div class="ui small disabled header">
+				还没有笔记，请按下 `添加笔记` 按钮
+			</div>	
+			
+		</div>
+
+	</div>
+
+</body>
+</html>
